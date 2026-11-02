@@ -29,7 +29,7 @@ FK,being diverted at request of the train operator ,diverted at operator request
 FL,a request by the train operator,request by operator
 FM,a problem with the train,problem with train
 FN,a late arrival of the service from Europe,late arrival from Europe
-FO,an unknown problem,unknown cause
+FO,an unknown problem,unknown problem
 FP,an incorrect route being taken,incorrect route
 FS,a signalling problem with ETCS/ERTMS equipment,ETCS/ERTMS signalling problem
 FT,it being Autumn,Autumn weather
@@ -219,7 +219,7 @@ TK,an issue with the train crew,issue with train crew
 TL,a problem with the train,train problem
 TM,awaiting connections,awaiting connections
 TN,a late arrival of the service from Europe,late arrival of service from Europe
-TO,an unknown problem,unknown cause
+TO,an unknown problem,unknown problem
 TP,additional stops being added to the service,additional stops
 TR,a decision by the train operating company,train company decision
 TS,a signalling problem with the ETCS/ERTMS equipment,train equipment problem
@@ -228,7 +228,7 @@ TU,a problem under investigation,problem under investigation
 TW,the driver adhering to company policy,company driving policy
 TX,a delay caused on a non-Network Rail line,delay caused on non-Network Rail line
 TY,a mishap,mishap
-TZ,an unknown reason,unknown cause
+TZ,an unknown reason,unknown reason
 V8,the train striking a bird,the train striking a bird
 VA,disorder,disorder
 VB,vandalism,vandalism
