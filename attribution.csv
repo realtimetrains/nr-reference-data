@@ -6,7 +6,7 @@ AE,congestion in the terminal/yard,congestion
 AG,adjusting loaded wagons,adjusting wagons
 AH,customer equipment breakdown or reduced capacity,waiting for customer
 AJ,waiting for customer traffic,waiting for customer
-AK,an incident in a freight yard,a fire
+AK,an incident in a freight yard,incident
 AX,problem with the infrastructure,problem with infrastructure
 AZ,unknown cause related to a freight operating company,unknown cause
 DA,a problem with rolling stock pending investigation,rolling stock issue pending investigation
@@ -175,7 +175,7 @@ R6,a lack of available station staff,lack of station staff
 R7,an unusually large passenger flow due to a special event,large passenger flow
 RB,an unexpected number of passengers joining/alighting the service,unexpected passenger load
 RA,an issue with the station,station issue
-RB,an issue with passengers boarding or alighting the service,passenger issue
+R8,an issue with passengers boarding or alighting the service,passenger issue
 RC,passenger assistance being provided,passenger assistance
 RD,the train being serviced,train being serviced
 RE,the failure of station equipment,station equipment failure
@@ -215,7 +215,7 @@ TK,an issue with the train crew,issue with train crew
 TL,a problem with the train,train problem
 TM,awaiting connections,awaiting connections
 TN,a late arrival of the service from Europe,late arrival of service from Europe
-TO,an unknown problem,
+TO,an unknown problem,unknown cause
 TP,additional stops being added to the service,additional stops
 TR,a decision by the train operating company,train company decision
 TS,a signalling problem with the ETCS/ERTMS equipment,train equipment problem
@@ -266,7 +266,7 @@ XT,adverse winter weather conditions,adverse weather conditions
 XU,a signal sighting problem caused by the sun,adverse weather conditions
 XV,an evacuation caused by a fire alert,fire evacuation
 XW,high winds,high winds
-XZ,an unknown problem,
+XZ,an unknown problem,unknown problem
 YA,late running to allow a another train to run on time,late running
 YB,late running to allow for another late running train,late running
 YC,late running owing to following a preceding service,late running
@@ -289,3 +289,13 @@ YT,late running of another service,late running
 YU,the train being swapped,train swap
 YV,the train being held for a line blocking incident,train held
 YX,overcrowding,overcrowding
+M2,a problem with ATO/ETCS equipment,train fault
+OR,a delay caused by local operating instructions,local instructions
+RX,station overcrowding due to an unplanned event,overcrowding
+R8,a problem at a staffed station,station issue
+ZS,an unexplained sub-threshold delay,unexplained
+ZU,a delay with no cause identified following investigation,unknown cause
+ZW,a cancellation that has not been investigated,not investigated
+ZX,a late start that has not been investigated,not investigated
+ZY,station overtime that has not been investigated,not investigated
+ZZ,loss in running that has not been investigated,not investigated
