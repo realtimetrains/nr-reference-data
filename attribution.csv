@@ -91,6 +91,7 @@ JT,a points failure caused by adverse weather conditions,points failure
 JX,an obstruction on the line,obstruction on line
 M0,a problem with the on-board safety systems,on-board safety systems fault
 M1,a problem with a pantograph/shoe,train fault
+M2,a problem with ATO/ETCS equipment,train fault
 M3,a problem with the train,train fault
 M5,a problem with the doors,door fault
 M6,a problem with the train,train fault
@@ -136,6 +137,7 @@ OM,a problem with a railhead treatment train,train fault
 ON,a problem under investigation,problem under investigation
 OP,the failure of train monitoring systems,train fault
 OQ,a signalling error having been made,signalling error
+OR,a delay caused by local operating instructions,local instructions
 OS,a problem with a railhead treatment train,train fault
 OT,sighting issues causing a temporary speed restrictions,temporary speed restrictions
 OU,a delay not investigated,delay not investigated
@@ -173,9 +175,10 @@ R4,a lack of available station staff,lack of station staff
 R5,an error having been made,error having been made
 R6,a lack of available station staff,lack of station staff
 R7,an unusually large passenger flow due to a special event,large passenger flow
-RB,an unexpected number of passengers joining/alighting the service,unexpected passenger load
-RA,an issue with the station,station issue
 R8,an issue with passengers boarding or alighting the service,passenger issue
+R8,a problem at a staffed station,station issue
+RA,an issue with the station,station issue
+RB,an unexpected number of passengers joining/alighting the service,unexpected passenger load
 RC,passenger assistance being provided,passenger assistance
 RD,the train being serviced,train being serviced
 RE,the failure of station equipment,station equipment failure
@@ -196,6 +199,7 @@ RT,loading luggage,loading luggage
 RU,locating luggage,locating luggage
 RV,a problem with station equipment,station equipment problem
 RW,station flooding,station flooding
+RX,station overcrowding due to an unplanned event,overcrowding
 RY,a mishap,mishap
 RZ,an unknown cause at the station,unknown station cause
 T1,being delayed at an unstaffed station,delayed at unstaffed station
@@ -289,10 +293,6 @@ YT,late running of another service,late running
 YU,the train being swapped,train swap
 YV,the train being held for a line blocking incident,train held
 YX,overcrowding,overcrowding
-M2,a problem with ATO/ETCS equipment,train fault
-OR,a delay caused by local operating instructions,local instructions
-RX,station overcrowding due to an unplanned event,overcrowding
-R8,a problem at a staffed station,station issue
 ZS,an unexplained sub-threshold delay,unexplained
 ZU,a delay with no cause identified following investigation,unknown cause
 ZW,a cancellation that has not been investigated,not investigated
