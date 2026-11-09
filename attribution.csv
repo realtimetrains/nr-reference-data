@@ -1,13 +1,16 @@
 ﻿delay_code,long_text,short_text
 AA,waiting for terminal/yard acceptance,waiting for acceptance 
+AB,waiting for documentation,waiting for documentation
 AC,waiting for train preparation or completion of TOPS list,waiting for preparation
 AD,a shortage of terminal/yard staff,staff shortage
 AE,congestion in the terminal/yard,congestion
+AF,equipment failure,equipment failure
 AG,adjusting loaded wagons,adjusting wagons
 AH,customer equipment breakdown or reduced capacity,waiting for customer
 AJ,waiting for customer traffic,waiting for customer
 AK,an incident in a freight yard,a fire
 AX,problem with the infrastructure,problem with infrastructure
+AY,a mishap,mishap
 AZ,unknown cause related to a freight operating company,unknown cause
 DA,a problem with rolling stock,rolling stock issue
 DB,a problem with operating a train service,operational issue
@@ -18,7 +21,9 @@ DF,a problem external to the railway,external issue
 DG,a problem in a freight yard,freight yard issue
 DH,a problem with rail adhesion,Autumn weather
 FA,an incident with dangerous goods,incident
+FB,incorrect marshalling,incorrect marshalling
 FC,a problem with the train crew,train crew issue
+FD,an unavailable locomotive,unavailable locomotive
 FE,the train crew not being available,planning error
 FF,a train crew rostering issue,train crew issue
 FG,the driver adhering to company policy,company driving policy
@@ -33,12 +38,15 @@ FO,an unknown problem,unknown cause
 FP,an incorrect route being taken,incorrect route
 FS,a signalling problem with ETCS/ERTMS equipment,ETCS/ERTMS signalling problem
 FT,it being Autumn,Autumn weather
+FU,a problem under investigation,under investigation
 FX,the train running at a slower speed than expected,slow train
 FW,a late start from the yard due to an unknown problem,late start
+FY,a problem with the infrastructure,problem with infrastructure
 FZ,unknown cause related to a freight operating company,unknown cause
 I0,a problem with safety equipment,safety equipment problem
 I1,a problem with the electrified line,electrified line problem
 I2,a power supply problem,power supply problem
+I3,an obstruction of the overhead line,overhead line obstruction
 I4,a power supply problem,power supply problem
 I5,overrunning engineering works,overrunning engineering work
 I6,track inspections,engineering work
@@ -59,13 +67,16 @@ IK,a signalling problem,signalling problem
 IL,a signal failure,signal failure
 IM,a signal failure,signal failure
 IN,a problem with track-side equipment,trackside equipment problem
+IO,an earlier problem with trackside equipment,earlier trackside equipment problem
 IP,a points failure caused by adverse weather conditions,points failure
 IQ,a problem with track-side equipment,trackside equipment problem
 IR,a rail defect,rail defect
 IS,a problem with the track,track problem
 IT,a reported problem with the track,track problem
+IU,a problem with track,problem with track
 IV,a problem with the track,track problem
 IW,a problem with the infrastructure caused by adverse weather conditions,infrastructure problem - weather
+IY,a mishap,mishap
 IZ,a problem with the infrastructure,infrastructure problem
 J0,a problem with train communications,train comms problem
 J2,a minor signalling problem,minor signalling problem
@@ -78,25 +89,34 @@ J8,damage to the track during engineering works,track damage
 J9,emergency engineering works,emergency engineering work
 JA,temporary speed restrictions,temporary speed restrictions
 JB,temporary speed restrictions,temporary speed restrictions
+JC,a failure with communications equipment,comms equipment failure
 JD,a problem with the infrastructure,infrastructure problem
 JF,a problem with the infrastructure,infrastructure problem
 JG,temporary speed restrictions,temporary speed restrictions
 JH,heat causing emergency speed restrictions,"emergency speed restrictions, heat"
+JI,a bridge problem,bridge problem
 JK,flooding,flooding
 JL,an unknown cause,unknown cause
+JM,a signalling problem,signalling problem
+JN,engineering work cancellation,engineering work cancellation
+JO,rolling contact fatigue,rolling contact fatigue
 JP,lineside vegetation,lineside vegetation
+JQ,a train striking tree or lineside vegetation,train striking tree or lineside vegetation
 JR,a signalling problem,signalling problem
 JS,a problem with the track causing temporary speed restrictions,temporary speed restrictions
 JT,a points failure caused by adverse weather conditions,points failure - weather
 JX,an obstruction on the line,obstruction on line
 M0,a problem with the on-board safety systems,on-board safety systems problem
 M1,a problem with a pantograph,train problem
+M2,a train fault,problem with train
 M3,a problem with the train,train problem
+M4,a train fault,train fault
 M5,a problem with the doors,door problem
 M6,a problem with the train,train problem
 M7,a problem with the doors,door problem
 M8,a problem with the train,train problem
 M9,a problem with the train,train problem
+MA,a train fault,train fault
 MB,a problem with the traction equipment,train fault
 MC,a problem with the traction equipment,train fault
 MD,a problem with the traction equipment,train fault
@@ -108,6 +128,7 @@ MI,a problem with a coach,problem with a coach
 MJ,a problem with the train,problem with train
 MK,a problem with the train,problem with train
 ML,a problem with the train,problem with train
+MM,a train fault,train fault
 MN,a problem with the train,train fault
 MO,a delay with the train coming from depot,train delayed from depot
 MP,a problem with rail adhesion,rail adhesion issue
@@ -118,8 +139,14 @@ MT,a problem with the on-board safety systems,on-board safety systems problem
 MU,a problem at the depot,problem at depot
 MV,a problem with engineering equipment outside engineering works,equipment fault
 MW,adverse weather conditions,adverse weather
+MX,a train fault,train fault
 MY,a problem with the train,mishap
+MZ,a problem under investigation,problem under investigation
 NA,a problem with the onboard tilting equipment,tilting equipment problem
+NB,a problem with the tilting equipment,tilting equipment problem
+NC,a fire,fire
+ND,a problem with the on-board signalling,on-board signalling problem
+O2,a problem with signalling equipment,signalling equipment problem
 OA,late running caused by another service,late due to another service
 OB,late running caused by another service,late due to another service
 OC,an error having been made,error having been made
@@ -134,6 +161,7 @@ OK,an error having been made,error having been made
 OL,the signalbox not being open,signalbox not open
 OM,a problem with a railhead treatment train,train fault
 ON,a problem under investigation,problem under investigation
+OO,an earlier train being late,earlier train being late
 OP,the failure of train monitoring systems,train fault
 OQ,an error having been made,error having been made
 OS,a problem with a railhead treatment train,train fault
@@ -141,14 +169,19 @@ OT,operational safety requirements,safety requirements
 OU,a delay not investigated,delay not investigated
 OV,a fire evacuation,fire evacuation
 OW,a connection being held,connection being held
+OY,a mishap,mishap
 OZ,a problem under investigation,problem under investigation
 PA,temporary speed restrictions,temporary speed restriction
 PB,temporary speed restrictions,temporary speed restriction
+PC,a temporary speed restriction,temporary speed restriction
 PD,the planned cancellation (was not planned to operate),planned cancellation
 PE,planned engineering work,planned engineering work
 PF,planned engineering work,planned engineering work
 PG,a planned cancellation by the train operator,planned cancellation
+PH,a temporary speed restriction,temporary speed restriction
+PI,a temporary speed restriction,temporary speed restriction
 PJ,a duplicate,duplicate
+PK,a bank holiday cancellation,bank holiday cancellation
 PL,an excluded reason,excluded reason
 PN,the train being a very short term planned (VSTP) service,planning error
 PS,being a duplicate/erroneous schedule,planning error
@@ -173,7 +206,6 @@ R4,a lack of available station staff,lack of station staff
 R5,an error having been made,error having been made
 R6,a lack of available station staff,lack of station staff
 R7,an unusually large passenger flow due to a special event,large passenger flow
-RB,an unexpected number of passengers joining/alighting the service,unexpected passenger load
 RA,an issue with the station,station issue
 RB,an issue with passengers boarding or alighting the service,passenger issue
 RC,passenger assistance being provided,passenger assistance
@@ -206,6 +238,8 @@ T8,an unknown problem,unknown problem
 TA,an issue with the operational plan,planning issue
 TB,the train operator's request,train operator's request
 TC,resourcing issues,resourcing issues
+TD,the train being unavailable,unavailable train
+TE,an on-board incident,on-board incident
 TF,an issue with seat reservations,seat reservation problem
 TG,an issue with the train crew,issue with train crew
 TH,an issue with the train crew,issue with train crew
