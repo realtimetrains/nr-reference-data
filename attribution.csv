@@ -45,7 +45,7 @@ I6,track inspections,engineering work
 I7,a broken down train related to engineering works,broken down train
 I8,animals on the line,animals on line
 I9,a fire,fire
-IA,a signal failure,signalling system fault
+IA,a signal failure,signal failure
 IB,a points failure,points failure
 IC,a signalling problem (track circuit failure),signalling system fault
 ID,a level crossing failure,signalling system fault
