@@ -27,7 +27,7 @@ FD,an unavailable locomotive,unavailable locomotive
 FE,the train crew not being available,unavailable train crew
 FF,a train crew rostering issue,train crew issue
 FG,the driver adhering to company policy,company driving policy
-FH,a planning error,planning error
+FH,a planning issue,planning issue
 FI,a signalling problem with ETCS/ERTMS equipment,ETCS/ERTMS signalling problem
 FJ,being held at the request of the train operator,held at operator request
 FK,being diverted at request of the train operator ,diverted at operator request 
@@ -142,7 +142,7 @@ MW,adverse weather conditions,adverse weather
 MX,a train fault,train problem
 MY,a problem with the train,train problem
 MZ,a problem under investigation,problem under investigation
-NA,a problem with the onboard tilting equipment,train problem
+NA,a problem with the onboard tilting equipment,tilting equipment problem
 NB,a problem with the tilting equipment,tilting equipment problem
 NC,a fire,fire
 ND,a problem with the on-board signalling,on-board signalling problem
@@ -184,8 +184,8 @@ PI,a temporary speed restriction,temporary speed restriction
 PJ,a duplicate,duplicate
 PK,a bank holiday cancellation,bank holiday cancellation
 PL,an excluded reason,excluded reason
-PN,the train being a very short term planned (VSTP) service,planning error
-PS,being a duplicate/erroneous schedule,planning error
+PN,the train being a very short term planned (VSTP) service,planning issue
+PS,being a duplicate/erroneous schedule,planning issue
 PT,a problem with train monitoring systems,train problem
 PZ,contractual exclusions,contractual exclusions
 QA,a problem with the schedule,schedule problem
@@ -200,11 +200,11 @@ QP,engineering work,engineering work
 QQ,a problem with the schedule,schedule problem
 QT,an unknown cause,unknown cause
 QZ,an unknown cause,unknown cause
-R1,an error having been made,error having been made
-R2,an error having been made,error having been made
+R1,a station dispatch issue,dispatch issue
+R2,a late ready to start (TRTS) signal,late TRTS
 R3,a lack of available station staff,lack of station staff
 R4,a lack of available station staff,lack of station staff
-R5,an error having been made,error having been made
+R5,a station staff issue,station staff issue
 R6,a lack of available station staff,lack of station staff
 R7,an unusually large passenger flow due to a special event,large passenger flow
 R8,a problem at a staffed station,station issue
