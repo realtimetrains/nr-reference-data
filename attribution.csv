@@ -18,7 +18,7 @@ DF,a problem external to the railway pending investigation,problem under investi
 DG,a problem in a freight yard pending investigation,problem under investigation
 DH,a problem with rail adhesion pending investigation,problem under investigation
 FA,an incident with dangerous goods,incident
-FC,a incident involving the train crew,driver error
+FC,a incident involving the train crew,train crew issue
 FE,the train crew not being available,planning error
 FF,a train crew rostering issue,planning error
 FG,the driver adhering to company policy,company driving policy
@@ -123,20 +123,20 @@ MY,a problem with the train,train fault
 NA,a problem with the onboard tilting equipment,train fault
 OA,late running caused by another service,late due to another service
 OB,late running caused by another service,late due to another service
-OC,a signalling error having been made,signalling error
+OC,an error having been made,error having been made
 OD,late running caused by the decision of route control,decision by route control
 OE,a problem with rail adhesion,lack of rail adhesion
-OF,a signalling error having been made,signalling error
+OF,an error having been made,error having been made
 OG,ice on the 3rd rail/OHLE,ice
 OH,a problem with signalling equipment,signalling system fault
 OI,a problem under investigation,problem under investigation
 OJ,a fire,fire
-OK,an operational error having been made,operational oversight
+OK,an error having been made,error having been made
 OL,the signalbox not being open,signalbox not open
 OM,a problem with a railhead treatment train,train fault
 ON,a problem under investigation,problem under investigation
 OP,the failure of train monitoring systems,train fault
-OQ,a signalling error having been made,signalling error
+OQ,an error having been made,error having been made
 OR,a delay caused by local operating instructions,local instructions
 OS,a problem with a railhead treatment train,train fault
 OT,sighting issues causing a temporary speed restrictions,temporary speed restrictions
