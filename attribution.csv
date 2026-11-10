@@ -68,12 +68,12 @@ IV,a problem with the track,track problem
 IW,a problem with the infrastructure caused by adverse weather conditions,infrastructure problem
 IZ,a problem with the infrastructure,infrastructure problem
 J0,a problem with train communications,train comms problem
-J2,a minor signalling problem,minor signalling system fault
-J3,a problem with signalling equipment,signalling system fault
+J2,a minor signalling problem,minor signalling problem
+J3,a problem with signalling equipment,signalling system problem
 J4,a reported problem with the infrastructure,infrastructure problem
 J5,a reported problem with the infrastructure,infrastructure problem
 J6,a lightning strike,lightning strike
-J7,a signalling problem,signalling system fault
+J7,a signalling problem,signalling problem
 J8,damage to the track during engineering works,track damage
 J9,emergency engineering works,emergency engineering work
 JA,temporary speed restrictions,temporary speed restrictions
@@ -85,42 +85,42 @@ JH,heat causing emergency speed restrictions,temporary speed restrictions
 JK,flooding,flooding
 JL,an unknown cause,unknown cause
 JP,lineside vegetation,lineside vegetation
-JR,a signalling problem,signalling system fault
+JR,a signalling problem,signalling problem
 JS,a problem with the track causing temporary speed restrictions,temporary speed restrictions
 JT,a points failure caused by adverse weather conditions,points failure
 JX,an obstruction on the line,obstruction on line
-M0,a problem with the on-board safety systems,on-board safety systems fault
-M1,a problem with a pantograph/shoe,train fault
-M2,a problem with ATO/ETCS equipment,train fault
-M3,a problem with the train,train fault
-M5,a problem with the doors,door fault
-M6,a problem with the train,train fault
-M7,a problem with the doors,door fault
-M8,a problem with the train,train fault
-M9,a problem with the train,train fault
-MB,a problem with the traction equipment,train fault
-MC,a problem with the traction equipment,train fault
-MD,a problem with the traction equipment,train fault
-ME,a problem with a steam locomotive,train fault
-MF,a problem with the train,train fault
-MG,a problem with the train,train fault
-MH,a problem with the doors,door fault
+M0,a problem with the on-board safety systems,problem with on-board safety systems
+M1,a problem with a pantograph/shoe,problem with train
+M2,a problem with ATO/ETCS equipment,problem with train
+M3,a problem with the train,problem with train
+M5,a problem with the doors,problem with doors
+M6,a problem with the train,problem with train
+M7,a problem with the doors,problem with doors
+M8,a problem with the train,problem with train
+M9,a problem with the train,problem with train
+MB,a problem with the traction equipment,problem with train
+MC,a problem with the traction equipment,problem with train
+MD,a problem with the traction equipment,problem with train
+ME,a problem with a steam locomotive,problem with train
+MF,a problem with the train,problem with train
+MG,a problem with the train,problem with train
+MH,a problem with the doors,problem with doors
 MI,a problem with a coach,problem with a coach
-MJ,a problem with the train,train fault
-MK,a problem with the train,train fault
-ML,a problem with the train,train fault
-MN,a problem with the train,train fault
+MJ,a problem with the train,problem with train
+MK,a problem with the train,problem with train
+ML,a problem with the train,problem with train
+MN,a problem with the train,problem with train
 MO,a delay with the train coming from depot,train late from depot
 MP,a problem with rail adhesion,rail adhesion issue
-MQ,a problem with the train,train fault
-MR,a problem with the train,train fault
+MQ,a problem with the train,problem with train
+MR,a problem with the train,problem with train
 MS,the planned train being replaced with a slower train,train swapped
-MT,a problem with the on-board safety systems,on-board safety systems fault
+MT,a problem with the on-board safety systems,problem with on-board safety systems
 MU,a problem at the depot,problem at depot
-MV,a problem with engineering equipment outside engineering works,equipment fault
-MW,adverse weather conditions,train fault
-MY,a problem with the train,train fault
-NA,a problem with the onboard tilting equipment,train fault
+MV,a problem with engineering equipment outside engineering works,problem with equipment
+MW,adverse weather conditions,weather
+MY,a problem with the train,problem with train
+NA,a problem with the onboard tilting equipment,problem with train
 OA,late running caused by another service,late due to another service
 OB,late running caused by another service,late due to another service
 OC,an error having been made,error having been made
@@ -128,17 +128,17 @@ OD,late running caused by the decision of route control,decision by route contro
 OE,a problem with rail adhesion,lack of rail adhesion
 OF,an error having been made,error having been made
 OG,ice on the 3rd rail/OHLE,ice
-OH,a problem with signalling equipment,signalling system fault
+OH,a problem with signalling equipment,problem with signalling system
 OI,a problem under investigation,problem under investigation
 OJ,a fire,fire
 OK,an error having been made,error having been made
 OL,the signalbox not being open,signalbox not open
-OM,a problem with a railhead treatment train,train fault
+OM,a problem with a railhead treatment train,problem with train
 ON,a problem under investigation,problem under investigation
 OP,the failure of train monitoring systems,train fault
 OQ,an error having been made,error having been made
 OR,a delay caused by local operating instructions,local instructions
-OS,a problem with a railhead treatment train,train fault
+OS,a problem with a railhead treatment train,problem with train
 OT,sighting issues causing a temporary speed restrictions,temporary speed restrictions
 OU,a delay not investigated,delay not investigated
 OV,a fire,fire
@@ -154,7 +154,7 @@ PJ,a duplicate,duplicate
 PL,an excluded reason,excluded reason
 PN,the train being a very short term planned (VSTP) service,planning error
 PS,being a duplicate/erroneous schedule,planning error
-PT,a problem with train monitoring systems,train fault
+PT,a problem with train monitoring systems,problem with train
 PZ,contractual exclusions,contractual exclusions
 QA,a problem with the schedule,schedule problem
 QB,planned engineering work,planned engineering work
